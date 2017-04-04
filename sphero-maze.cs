@@ -44,7 +44,7 @@ void turn() {
 
 void move() {
     controlSystemTargetSpeed = SPEED;
-    delay(0.9);
+    delay(DELAY);
 
     if (locatorVelocityX < 0.1 or accelSensorYForward < 0.1) {
         controlSystemTargetSpeed = 0;
